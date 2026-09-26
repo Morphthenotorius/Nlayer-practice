@@ -1,0 +1,12 @@
+﻿using Core.Repositories;
+using Entities.Entities;
+using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace DataAccess.Abstract
+{
+    public interface ICategoryDAL : IRepositoryBase<Category>
+    {
+    }
+}
